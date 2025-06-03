@@ -17,16 +17,16 @@ async def hello(ctx):
 @bot.command()
 async def check(ctx, trash):
     if trash == "plastik":
-        await ctx.send(trash + " ini dapat di daur ulang")
+        await ctx.send(trash + "ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik ")
     elif trash == "kertas":
-        await ctx.send(trash + " ini dapat di daur ulang")
+        await ctx.send(trash + " ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik")
     elif trash == "kaca":
-        await ctx.send(trash + " ini dapat di daur ulang")
+        await ctx.send(trash + "ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik" )
     elif trash == "logam":
-        await ctx.send(trash + " ini dapat di daur ulang")
+        await ctx.send(trash + " ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik")
     elif trash == "elektronik":
-        await ctx.send(trash + " ini dapat di daur ulang")
+        await ctx.send(trash + "ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik ")
     else:
-         await ctx.send(trash + " ini tidak dapat di daur ulang")
+         await ctx.send(trash + "ya sampah ini dapat di daur ulang karena termasuk  jenis sampah anorganik ")
 
 bot.run("")
